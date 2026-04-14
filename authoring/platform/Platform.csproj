@@ -67,6 +67,7 @@
   <ItemGroup>
     <Content Include="App_Config\Include\zzz\Custom.Events.Timing.Settings.config" />
     <Content Include="App_Config\Include\zzz\Custom.Publishing.Settings.config" />
+    <Content Include="App_Config\Include\zzz\LayoutService.DetailedRenderingParams.config" />
     <None Include="Platform.wpp.targets" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <None Include="README.md" />
