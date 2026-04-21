@@ -69,6 +69,21 @@ export const Default = (props: PromoProps): JSX.Element => {
   return <PromoContent {...props} renderText={renderText} />;
 };
 
+export const NoImages = (props: PromoProps): JSX.Element => {
+  const renderText = (fields: Fields) => (
+    <>
+      <div className="field-promotext">
+        <ContentSdkRichText field={fields.PromoText} />
+      </div>
+      <div className="field-promolink">
+        <ContentSdkLink field={fields.PromoLink} />
+      </div>
+    </>
+  );
+
+  return <PromoContent {...props} renderText={renderText} />;
+};
+
 export const WithText = (props: PromoProps): JSX.Element => {
   const renderText = (fields: Fields) => (
     <>
